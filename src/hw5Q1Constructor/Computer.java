@@ -1,5 +1,7 @@
 package hw5Q1Constructor;
 
+import hw1JavaBasic.MySelf;
+
 public class Computer {
 
 	public String brand;// variable declare.
@@ -23,6 +25,6 @@ public class Computer {
 		this.price = price;
 		this.grade = grade;
 		this.madeInUSA = madeInUSA;
-		System.out.println("\nMy Brand: " + brand);
+		System.out.println("\nMy Brand: " + brand +" \nMy Model: " + model +" \nMy Operating System:"+ operatingSystem +" \nMy Price :" + price + " \nMy Grade:"+ grade +" \nMade In USA:" + madeInUSA);
 	}
 }
