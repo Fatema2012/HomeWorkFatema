@@ -17,14 +17,17 @@ public class Computer {
 
 	}
 
-	public Computer(String brand, String model, String operatingSystem, int price, char grade, boolean madeInUSA) {// this parameterized constructor.
-		
+	public Computer(String brand, String model, String operatingSystem, int price, char grade, boolean madeInUSA) {// this
+																													// parameterized
+																													// constructor.
+
 		this.brand = brand;
 		this.model = model;
 		this.operatingSystem = operatingSystem;
 		this.price = price;
 		this.grade = grade;
 		this.madeInUSA = madeInUSA;
-		System.out.println("\nMy Brand: " + brand +" \nMy Model: " + model +" \nMy Operating System:"+ operatingSystem +" \nMy Price :" + price + " \nMy Grade:"+ grade +" \nMade In USA:" + madeInUSA);
+		System.out.println("\nMy Brand: " + brand + " \nMy Model: " + model + " \nMy Operating System:"
+				+ operatingSystem + " \nMy Price :" + price + " \nMy Grade:" + grade + " \nMade In USA:" + madeInUSA);
 	}
 }
