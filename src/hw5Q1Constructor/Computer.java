@@ -1,6 +1,6 @@
 package hw5Q1Constructor;
 
-import hw1JavaBasic.MySelf;
+
 
 public class Computer {
 
