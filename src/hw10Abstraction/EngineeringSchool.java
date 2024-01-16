@@ -2,10 +2,10 @@ package hw10Abstraction;
 
 public abstract class EngineeringSchool {
 
-public abstract void mechanicalLab();
+	public abstract void mechanicalLab();
 
-public void computerLab() {
-System.out.println("ComputerLab is non abstract method ");	
-}
+	public void computerLab() {
+		System.out.println("ComputerLab is non abstract method ");
+	}
 
 }
