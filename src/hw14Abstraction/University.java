@@ -1,4 +1,4 @@
-package hw12Abstraction;
+package hw14Abstraction;
 
 public interface University extends College, Hospital {
 
@@ -23,6 +23,7 @@ public interface University extends College, Hospital {
 	public void gymnasium();
 
 	public static void library() {
+		System.out.println("This library feature from University Interface");
 
 	}
 //	----------------------------------------------------------------------

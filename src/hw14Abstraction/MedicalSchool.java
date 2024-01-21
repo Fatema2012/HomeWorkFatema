@@ -1,4 +1,4 @@
-package hw12Abstraction;
+package hw14Abstraction;
 
 public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 
@@ -13,7 +13,7 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	public abstract void anatomyLab();
 
 	public void biochemistry() {
-		System.out.println(" This is biochemistry from MedicalSchool abstract ");
+		System.out.println(" This is biochemistry from MedicalSchool abstract Class");
 // public MedicalSchool() {
 // Abstract Class Cannot have Constructor
 	}
