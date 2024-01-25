@@ -1,7 +1,9 @@
 package hw13Polymorphism;
 
 /*
- * Method Overloading: When different methods exist with the same method name but with different parameters
+ * Method Overloading: When different methods exist with the same method name but with different parameters or signature static polymorphism or early binding or compile time polymorphism or method Overrloding.
+ 
+
  */
 
 public class Sister {
