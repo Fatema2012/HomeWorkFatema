@@ -49,7 +49,4 @@ public class Sister {
 		return age6;
 	}
 
-	
-	}
-
-
+}
